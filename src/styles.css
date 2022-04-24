@@ -1,0 +1,105 @@
+body {
+  font-family: sans-serif;
+}
+
+ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+div > p {
+  background-color: yellow;
+}
+div + h2 {
+  background-color: red;
+}
+p ~ h2 {
+  background-color: orange;
+}
+div > p {
+  background-color: yellow;
+}
+div + h2 {
+  background-color: red;
+}
+p ~ h2 {
+  background-color: orange;
+}
+div {
+  border: solid;
+}
+.boton:hover {
+  background-color: red;
+}
+* {
+  color: red !important;
+}
+p {
+  color: blue;
+}
+p {
+  color: blue;
+}
+#unico {
+  color: red;
+}
+.destacada {
+  color: green;
+}
+p.destacada {
+  color: orange;
+}
+p#unico {
+  color: pink;
+}
+p {
+  color: red;
+}
+p {
+  color: blue;
+}
+p,
+.aviso {
+  color: green;
+}
+p.aviso {
+  color: blue;
+}
+p .aviso {
+  color: red;
+}
+p,
+.aviso {
+  color: green;
+}
+#div1 {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 50%;
+}
+#div2 {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 50%;
+}
+#div3 {
+  background-color: orangered;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 50%;
+}
+img {
+  width: 50%;
+  height: 50%;
+}
